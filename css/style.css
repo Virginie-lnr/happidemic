@@ -23,20 +23,23 @@ Grey:
      padding: 0;
      margin: 0;
      box-sizing: border-box;
+     font-family: 'Poppins', sans-serif;
  }
  body{
+
      min-height: 400px;
  }
+
  /*header*/
  .stories .weather{
-  
+
      justify-content: center;
      align-items: center;
      min-height: 100vh;
  }
  .container-header{
      background-color: greenyellow;
-    
+
  }
  .container-logo{
      display:inline-flex;
@@ -112,7 +115,7 @@ q{
 }
 @keyframes animate{
     10%{
-       opacity: 1; 
+       opacity: 1;
     }
     100%{
         transform: rotateX(30deg) translate(0);
@@ -122,19 +125,19 @@ q{
 
 /*headlines and content*/
 .stories .container{
-    display: inline-flex;
+  display: inline-flex;
    padding: 30px 40px;
-   width:100px;
+   width:100%;
    height: 100%;
-   
+
 }
 .heading{
     padding:10px 10px;
     margin: 10px 10px;
-    border:5px solid #000 ;
-    background-color: greenyellow;
+    background-color: #B4E6C7;
     flex-wrap: wrap;
     height: 400px;
+    width: 500px;
 }
 .heading:hover{
     transform:translateY(-10px);
@@ -159,7 +162,7 @@ q{
     text-align: center;
 }
 .happy-moment{
-    position: relative;
+
     background-position: center;
     background-size: cover;
     width: 900px;
@@ -173,8 +176,7 @@ q{
 .caption{
     margin: 0rem;
     padding: 10px;
-    background-color: black;
-    color: blanchedalmond;
+    background-color: #7DD39E;
     justify-content: center;
     text-align: center;
 }
@@ -186,33 +188,31 @@ q{
 }
 /*BLOG*/
 .blog{
-    text-align: center;
+    text-align: justify;
+
     position: relative;
     margin: 15px 15px;
     padding: 2px 0 ;
-    border: 5px double black;
     height: 33px;
     width: 100%;
-    background-color:greenyellow;  
+    background-color:#FED766;
     min-width: 100px;
 }
 
 /*Blog-images*/
 .happy-images{
-   
+
    position: relative;
    display: flex;
    top: 0%;
-  
+
 }
 .happy{
-    width: 20em;
     height: 15em;
 }
 .image-1,.image-2,.image-3{
-    border: 5px solid steelblue;
     padding:10px 10px;
-    margin:0 10px; 
+    margin:0 20px;
 }
 .happy:hover{
     transform:translateY(-5px);
@@ -227,8 +227,8 @@ q{
   background-color: turquoise;
 }
 .contact-form{
-    position: relative; 
-    width: 100%; 
+    position: relative;
+    width: 100%;
    }
 
    .contact-form .right{
