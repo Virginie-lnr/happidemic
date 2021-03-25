@@ -44,6 +44,11 @@ Grey:
  .container-logo{
      display:inline-flex;
  }
+
+ .footer a{
+   text-decoration: none;
+   color:  #000000;
+ }
  #main-heading{
     font-family: fantasy;font-size: 50px;
     color: #21df21;
