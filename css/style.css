@@ -22,11 +22,21 @@ Grey:
   margin: 0;
   box-sizing: border-box;
   font-weight: bold;
-  
+
   line-height: 1.2vw;
 }
 body {
   min-height: 400px;
+}
+
+
+/*Motivation of the day*/
+.motiv-news{
+    background-color: #EDEDED;
+    color: #37B065;
+    font-style: italic;
+    text-align: center;
+    justify-items: center;
 }
 
 /*header*/
@@ -98,7 +108,7 @@ q {
   margin: 15px 0;
   padding: 10px 10px;
   border: 5px solid #000;
-  background-color: greenyellow;
+  background-color: #FED766;
   float: left;
   flex-wrap: wrap;
   height: 300px;
@@ -174,7 +184,7 @@ q {
   height: 300px;
 }
 .heading-contact:hover {
-  background-color: turquoise;
+  background-color: #7DD39E;
 }
 .contact-form {
   position: relative;
