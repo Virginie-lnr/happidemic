@@ -4,7 +4,7 @@
     display: flex;
     z-index: 9999;
     box-shadow: 15px 15px 12px #FED766;
-
+    padding-top: 10px;
 }
 
 .nav-bar ul {
@@ -51,7 +51,7 @@ display: none;
 .nav-bar ul li:hover:not(.socials) .sub-menu-1 {
 display: block;
 background-color: white;
-margin-top: 10px;
+
 }
 
 .sub-menu-1 ul li{
@@ -59,7 +59,7 @@ margin-top: 10px;
 }
 
 .nav-bar ul li:hover:not(.socials) .sub-menu-1 ul {
-    display: block;
+    display:inline-block;
 
 }
 
