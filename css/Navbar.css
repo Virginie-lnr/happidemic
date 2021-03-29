@@ -2,7 +2,7 @@
  .nav-bar {
     height: 10vh;
     display: flex;
-    z-index: 2;
+    z-index: 9999;
     box-shadow: 15px 15px 12px #FED766;
 
 }
@@ -12,26 +12,28 @@
     display: inline-flex;
     list-style: none;
     writing-mode: sideways-rl;
-
+z-index: 9999;
 }
 
 .nav-bar ul li {
 width: 200px;
-margin-top: 15px;
+margin-top: 10px;
 padding: 15px;
+z-index: 9999;
 
 
 }
-.nav-bar ul li a {
+.nav-bar ul li:not(.socials) a {
     text-decoration: none;
     color:black;
-
+z-index: 9999;
 }
 
-.nav-bar ul li:hover {
+.nav-bar ul li:hover:not(.socials) {
 background-color: rgba(0,0,0,0.1);
 border-radius: 20px;
 position: relative;
+z-index: 9999;
 }
 
 
@@ -46,32 +48,22 @@ display: none;
 
 }
 
-.nav-bar ul li:hover .sub-menu-1 {
+.nav-bar ul li:hover:not(.socials) .sub-menu-1 {
 display: block;
 background-color: white;
-margin-top: 15px;
+margin-top: 10px;
 }
 
 .sub-menu-1 ul li{
   width: 100%;
 }
 
-.nav-bar ul li:hover .sub-menu-1 ul {
+.nav-bar ul li:hover:not(.socials) .sub-menu-1 ul {
     display: block;
 
 }
-/*
-.nav-bar ul li:hover .sub-menu-1 ul li {
-width: 120px;
-border-bottom: 1px dotted #fff;
-background: transparent;
-border-radius: 100;
-text-align: left;
-transition: 0.5s;
-}*/
 
-
-.sub-menu-1 ul:hover li:hover{
+.sub-menu-1 ul:hover li:hover:not(.socials) {
 background-color: rgba(0,0,0,0.1);
 
 }

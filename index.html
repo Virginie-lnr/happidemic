@@ -3,41 +3,20 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title></title>
+    <title>Happidemic</title>
+    <link rel="stylesheet" href="css/Navbar.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/Navbar.css" />
     <script src="https://kit.fontawesome.com/996adc512b.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
   </head>
 
   <body>
-    <!-- header <div class="container-header">
-      <div class="container-logo">
-        <img src="img/happidemic(2).jpg" class="logo" />
-        <h1 id="main-heading">
-          <span>Welcome</span>
-          <span>to</span>
-          <span>H</span>
-          <span>a</span>
-          <span>p</span>
-          <span>p</span>
-          <span>p</span>
-          <span>i</span>
-          <span>d</span>
-          <span>e</span>
-          <span>m</span>
-          <span>i</span>
-          <span>c</span>
-        </h1>
-      </div>
-      <h5><q class="reveal">The World of Happiness</q></h5>
-    </div> -->
 
 
 <!--Navbar-->
-<div class="nav-bar">
+<div class="nav-bar" >
 
 
 <img src="img/happy.png">
@@ -75,9 +54,15 @@
 
 
     <!--- Socials --->
+    <li class="socials">
+      <div>
       <a href="#"><i class="fab fa-facebook-square"></i></a>
       <a href="#"><i class="fab fa-instagram-square"></i></a>
       <a href="#"><i class="fab fa-twitter-square"></i></a>
+    </div>
+  </li>
+
+
 
 
 
@@ -91,43 +76,64 @@
 
     <!--Heading-->
     <div class="stories">
-      <div class="container">
-        <div class="heading">
-          <h5 class="caption">HEADING ONE</h5>
-          <div class="heading-1-content">
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.Non unde
-              tempora nihil provident ea deleniti animi,
-            </p>
-          </div>
-          <a href="#" class="read-more">Read More..</a>
-        </div>
+      <div class="container-fluid" >
+        <div class="row row-cols-4">
 
-        <img
-          src="img/background3.jpg"
-          alt="animals hugging"
-          class="happy-moment"
-        />
+          <div class="col">
+            <div class="heading" style="width: 400px;">
+              <div class="cap">
+                <h4 class="caption">This smart pot tells you exactly how much water and light your plants need</h5>
+              </div>
 
-        <div class="heading">
-          <h5 class="caption">HEADING THREE</h5>
-          <div class="heading-3-content">
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. ea
-              deleniti animi, odio fuga illum fugit!
-            </p>
+              <div class="heading-content">
+                <p>
+                  If you’re the type who loves sharing their home with plants, there probably was a time
+                  when you’ve found yourself with a struggling green companion, and couldn’t
+                  necessarily tell what the exact problem was. Was it too much water? Or too much
+                  sun? Was the relative humidity too high? Or was the air too dry?
+                    <a href="#" class="read-more">Read More..</a>
+                </p>
+              </div>
+
+            </div>
           </div>
-          <a href="#" class="read-more">Read More..</a>
-        </div>
-        <div class="heading">
-          <h5 class="caption">HEADING FOUR</h5>
-          <div class="heading-4-content">
-            <p>
-              Lorem ipsum dolor, sit amet consectnt ea deleniti animi, odio fuga
-              illum fugit!
-            </p>
+
+          <div class="col img" >
+            <img src="img/cat.jpg" alt="cat picture" class="cat">
           </div>
-          <a href="#" class="read-more">Read More..</a>
+          <div class="vl" style="height:400px;"></div>
+          <div class="col">
+            <div class="heading">
+              <div class="cap">
+              <h4 class="caption">Three strategies to build a progressive fitness routine that sticks</h5>
+            </div>
+              <div class="heading-content">
+                <p>
+                  There is a lot of mixed messaging when it comes to the world of fitness, but one thing that
+most doctors and trainers can agree on is that a progressive approach to exercise with realistic
+and steady goals is the most effective way to make a fitness routine stick and avoid burnout.
+Here are three tips for adopting progressive fitness for long-term health and wellness.
+<a href="#" class="read-more">Read More..</a>
+                </p>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="heading">
+              <h4 class="caption">Seven strategies to jump-start a zero-waste lifestyle</h5>
+              <div class="heading-content" style="font-size: 0.9rem">
+                <p>
+                  As the negative impacts of human-driven climate change become more obvious in our day-to-day lives, humanity is experiencing a shift in consciousness that prioritizes sustainability and minimizing our carbon footprint. <br><br>
+                  However, breaking old habits in exchange for sustainable ones, such as joining the zero-waste movement, can be intimidating. Here are seven strategies that you can incorporate into your daily life to ease you into a more eco-conscious, zero-waste life!
+                  <a href="#" class="read-more">Read More..</a>
+                </p>
+              </div>
+
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
@@ -140,33 +146,38 @@
       <div class="happy-images">
         <div class="image-1">
           <img
-            src="img/background2.jpg"
-            alt="meeting with team members"
+            src="img/sport.jpg"
+
             class="happy"
           />
-          <h5>SOMETHING</h5>
-          <p>Lorem ipsum velit eius non cs doloremque ab?</p>
+          <h5>Three strategies to build a progressive fitness routine that sticks</h5>
+          <p>There is a lot of mixed messaging when it comes to the world of fitness, but one thing that most doctors and trainers can agree on is that a progressive approach to exercise
+             with realistic and steady goals is the most effective way to make a fitness routine stick and avoid burnout. Here are three tips for adopting progressive fitness for long-term health and wellness. </p>
+
         </div>
+        <div class="vl"></div>
         <div class="image-2">
-          <img src="img/background4.jpg" alt="sharks" class="happy" />
-          <h5>SOMETHING</h5>
-          <p>Lorem ipsum velit eius non cs doloremque ab?</p>
+          <img src="img/galapagos.jpg" class="happy" />
+          <h5>Conservationists release 36 endangered tortoises on Galapagos island</h5>
+          <p>Following the introduction of predators, competitors, and vegetation change on the Galapagos’ San Cristobal island,
+             the population of the endemic Chelonoidis chathamensis giant tortoise was reduced from 24,000 animals to about 600 in the early 1970s, pushing the species to the brink of extinction.</p>
         </div>
+        <div class="vl"></div>
         <div class="image-3">
           <img
-            src="img/background5.jpg"
-            alt="children playing with bubbles"
+            src="img/moxie.jpg"
+
             class="happy"
           />
-          <h5>SOMETHING</h5>
-          <p>Lorem ipsum velit eius non cs doloremque ab?</p>
+          <h5>Meet Moxie: The development skills robot for children</h5>
+          <p>AI technology and robotics have seen a surge in development in recent years and are slowly making their way from the fringes of mainstream culture into our homes.</p>
         </div>
         <!--End of Blog-->
         <!-- Contact form -->
         <div class="contact-bar">
           <div class="heading-contact">
             <h5 class="contact">JOIN US</h5>
-            <div class="heading-content">
+            <div class="">
               <div class="contact-form">
                 <div class="container">
                   <form>
@@ -238,7 +249,7 @@
             <div class="row">
               <div class="col">
                 <p class="text-muted">
-                  <small> All content is Copyright © 2021 Best Team inc.</small>
+                  <small> <br> All content is Copyright © 2021 Best Team inc.</small>
                 </p>
               </div>
             </div>
